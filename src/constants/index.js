@@ -8,13 +8,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
+    python,
     tailwind,
-    nodejs,
-    mongodb,
+    wordpress,
+    aws,
     git,
     figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -81,20 +80,20 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Wordpress",
+      icon: wordpress,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "AWS",
+      icon: aws,
     },
     {
       name: "Three JS",
@@ -107,10 +106,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
