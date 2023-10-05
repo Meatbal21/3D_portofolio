@@ -49,7 +49,7 @@ const Experience = () => {
           What i have done so far
         </p>
         <p className={styles.sectionHeadText}>
-          Work experience
+           Coding journey.
         </p>
     </motion.div>
       <div className="mt-20 flex flex-col">

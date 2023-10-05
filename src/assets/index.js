@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import netlify from './netlify.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -21,16 +22,18 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import udemy from "./company/udemy.png";
+import awslogo from "./company/awslogo.png";
+import mimoapp from "./company/mimoapp.png";
+import mimodev from "./company/mimodev.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cinetrail from "./cinetrail.png";
+import unilife from "./unilife.png";
+import fakestore from "./fakestore.png";
+import rickmorty from './rickmorty.png'
 
 export {
+  netlify,
   logo,
   backend,
   creator,
@@ -51,11 +54,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  udemy,
+  awslogo,
+  mimoapp,
+  mimodev,
+  cinetrail,
+  unilife,
+  fakestore,
+  rickmorty,
 };

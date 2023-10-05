@@ -14,13 +14,14 @@ import {
     aws,
     git,
     figma,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    udemy,
+    mimoapp,
+    mimodev,
+    awslogo,
+    cinetrail,
+    unilife,
+    fakestore,
+    rickmorty,
     threejs,
   } from "../assets";
   
@@ -49,11 +50,11 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "UI/UX Designer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Cloud Computing",
       icon: creator,
     },
   ];
@@ -111,55 +112,55 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Learning user",
+      company_name: "Mimo App",
+      icon: mimoapp,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2022 - November 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Introduction to web developer learning app",
+        "Learning fundamanetal html, css and javascript.",
+        "Implementing learning theory with quiz program",
+        "Apply code with coding challenge.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bootcamp Student",
+      company_name: "Mimo Dev",
+      icon: mimodev,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "January 2023 - July 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing fundamental skill to build and develop website from scratch.",
+        "Building website using API that produce dynamic and responsive website with beautiful design.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Participating in code reviews and providing constructive feedback to other classmate.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Cloud Practicioner Learner",
+      company_name: "AWS",
+      icon: awslogo,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learning basic fundamental about cloud computing and managing cloud computing flow.",
+        "Prepare for cloud practicioner exam and certification.",
+        "implementing practical knowledge on how to use AWS inside and out.",
+        ,
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Python Developer Course",
+      company_name: "Udemy",
+      icon: udemy,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "September 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Learn basic and fundamental about python 3 with tools and tehcnology support.",
+        "Making a realworld project that can handle real-life problem.",
+        "Learn and implement supportive tools and technology such as web scraping, Pycharm, Selenium.",
+        
       ],
     },
   ];
@@ -193,30 +194,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Preview",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web-based platform that allows users to search movie with synopsis to preview. User can see what's popular, upcoming movies and top rated movies.",
       tags: [
         {
           name: "react",
@@ -227,24 +207,25 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cinetrail,
+      source_live_link: "https://cinepreview.netlify.app/",
+      source_code_link: "https://github.com/Meatbal21/Cinetrail",
     },
     {
-      name: "Trip Guide",
+      name: "Uni Life",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Web application that enables users to search for dorm listing on UK area. Also user can filter and sort the price, how many bedroom and bathroom for they need",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
@@ -252,8 +233,53 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: unilife,
+      source_code_link: "https://github.com/Meatbal21/UniLife",
+      source_live_link: "https://unilife-ruby.netlify.app/"
+    },
+    {
+      name: "Online Store Clone",
+      description:
+        "An Online Store Project that allow user to buy, saved favorite item that they loved.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: fakestore,
+      source_code_link: "https://github.com/Meatbal21/Fake-Store-Project",
+      source_live_link: "https://fakestore-ruby.netlify.app/",
+    },
+    {
+      name: "Rick & Morty Wiki",
+      description:
+        "A website app that allow user to find all characters from Rick & Morty series. User can see which character will showed up on each episode",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rickmorty,
+      source_code_link: "https://github.com/Meatbal21/RIck-and-Morty",
+      source_live_link: "https://ricknmortywikiped.netlify.app/",
     },
   ];
   
