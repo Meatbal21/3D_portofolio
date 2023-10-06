@@ -30,7 +30,9 @@ import mimodev from "./company/mimodev.png";
 import cinetrail from "./cinetrail.png";
 import unilife from "./unilife.png";
 import fakestore from "./fakestore.png";
-import rickmorty from './rickmorty.png'
+import rickmorty from './rickmorty.png';
+
+import wiharta from './wihartaLim.jpeg';
 
 export {
   netlify,
@@ -62,4 +64,5 @@ export {
   unilife,
   fakestore,
   rickmorty,
+  wiharta,
 };
