@@ -24,6 +24,7 @@ import {
     rickmorty,
     threejs,
     wiharta,
+    kelsey,
   } from "../assets";
   
   export const navLinks = [
@@ -174,7 +175,15 @@ import {
       designation: "CEO",
       company: "BeMutual.com",
       image: wiharta,
-    }
+    },
+    {
+      testimonial:
+        "I had the pleasure of mentoring Ruby during his time at Mimo coding bootcamp. Ruby consistently impressed me with his dedication and commitment to his work. He was always on time for our meetings and approached challenges with a can-do attitude. His determination and perseverance were truly commendable, as he never shied away from tackling complex projects. His knowledge in HTML, CSS, and JavaScript is extensive, and he demonstrated an impressive ability to apply this knowledge effectively to his projects. His friendly and approachable nature made him an absolute pleasure to collaborate with. His positive attitude made working together an enjoyable experience.",
+      name: "Kelsey Jackson",
+      designation: "Private Mentor",
+      company: "Mimo Dev",
+      image: kelsey,
+    },
   ];
   
   const projects = [

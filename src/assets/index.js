@@ -33,6 +33,7 @@ import fakestore from "./fakestore.png";
 import rickmorty from './rickmorty.png';
 
 import wiharta from './wihartaLim.jpeg';
+import kelsey from './kelsey.jpeg';
 
 export {
   netlify,
@@ -65,4 +66,5 @@ export {
   fakestore,
   rickmorty,
   wiharta,
+  kelsey,
 };
