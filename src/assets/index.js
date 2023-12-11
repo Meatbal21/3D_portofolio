@@ -34,6 +34,8 @@ import rickmorty from './rickmorty.png';
 
 import wiharta from './wihartaLim.jpeg';
 import kelsey from './kelsey.jpeg';
+import ruth from './ruth.jpg';
+import lensofruth from './lensofruth.png';
 
 export {
   netlify,
@@ -67,4 +69,6 @@ export {
   rickmorty,
   wiharta,
   kelsey,
+  ruth,
+  lensofruth,
 };

@@ -25,6 +25,8 @@ import {
     threejs,
     wiharta,
     kelsey,
+    ruth,
+    lensofruth,
   } from "../assets";
   
   export const navLinks = [
@@ -184,9 +186,39 @@ import {
       company: "Mimo Dev",
       image: kelsey,
     },
+    {
+      testimonial:
+        "Ruby knows what design i wanted and match my personal preference. Communicate with him also smooth, he understand my perspective and applied to my website. Glad i trust my project to Ruby",
+      name: "Ruth Sumargo",
+      designation: "Photographer",
+      company: "Ruth Sumargo Photography",
+      image: ruth,
+    },
   ];
   
   const projects = [
+    {
+      name: "Photgrapher Showcase Page",
+      description:
+        "A website for photographer to showcase their works",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "responsive",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: lensofruth,
+      source_code_link: "https://github.com/Meatbal21/ruthweb",
+      source_live_link: "https://lensofruth.com/",
+    },
     {
       name: "Movie Preview",
       description:
